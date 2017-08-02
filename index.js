@@ -3,7 +3,7 @@ $(document).ready(function(){
     $("#submit").click(function(){
     $.ajax({
          type: 'POST',
-         url: "",
+         url: "https://formspree.io/YOUR-NAME-HERE",
          data: $('#addCommentForm').serialize(), 
          success: function(response) {
             alert("Submitted comment"); 
